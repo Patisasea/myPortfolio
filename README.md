@@ -51,7 +51,7 @@ For running the server file on you can use this command.
 
 ## Future Updates
 
-- [ ] Reliable Storage
+- [] Add projects
 
 ## Author
 
