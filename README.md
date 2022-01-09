@@ -4,17 +4,12 @@
 
 ## Links
 
-- [Repo](https://github.com/Patisasea/<project-name> "<project-name> Repo")
+- [Repo](https://github.com/Patisasea/myPortfolio "<project-name> Repo")
 
-- [Live](https://github.com/Patisasea/<Homepage url> "Live View")
+- [Live](https://patisasea.github.io/myPortfolio/ "Live View")
 
 ## Screenshots
 
-![](/screenshots/1.png )
-
-![](/screenshots/2.png)
-
-![](/screenshots/3.png)
 
 
 
@@ -28,20 +23,14 @@
 ## Future Updates
 
 - [] Add projects
-- [] Get working background Img
 - [] Working nav links
 - [] Working project links
 
 ## Author
 
-**Rohit Jain**
+**Patric Seaman**
 
 - [Profile](https://github.com/Patisasea "Patric Seaman")
 - [Email](patisasea@gmail.com?subject=Hi "Hi!")
 - [Website]( "Work in progress")
 
-## 🤝 Support
-
-Contributions, issues, and feature requests are welcome!
-
-Give a ⭐️ if you like this project!
