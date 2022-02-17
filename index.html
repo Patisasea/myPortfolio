@@ -5,73 +5,126 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Patric Seaman's Portfulio" content="width=device-width, initial-scale=1.0">
-    <title>Patric Seaman's Portfulio</title>
-    <link rel="stylesheet" href="./assets/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patric Seaman's Portfulio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
-<body>
+<body class="has-navbar-fixed-top">
 
-    <header>
-        <h1>Patric's Portfulio</h1>
-        <nav class="navbar">
-            <ul>
-                <li><a href="Home.asp">Home</a></li>
-                <li><a href="About.asp">About</a></li>
-                <li><a href="Projects.asp">Projects</a></li>
-                <li><a href="Contact.asp">Contact</a></li>
-            </ul>
+    <header class="navbar is-black is-fixed-top">
+        <div class="navbar-item title has-text-white-bis">Patric's Portfulio</div>
+        <nav class="field has-addons navbar-end">
+            <div class="navbar-item">
+            <div class="buttons">
+                <button class="button is-dark"
+                    onClick="document.getElementById('aboutMe').scrollIntoView();">About</button>
+                <button class="button is-dark"
+                    onClick="document.getElementById('projects').scrollIntoView();">Projects</button>
+                <button class="button is-dark"
+                    onClick="document.getElementById('contact').scrollIntoView();">Contact</button>
+            </div>
+        </div>
         </nav>
     </header>
 
-    <Section class="headshot">
-        <a href="https://placeholder.com"><img
-                src="https://via.placeholder.com/400x460/000000/FFFFFF?text=My+placeholder+image" alt="Headshot"></a>
+    <Section class="hero in-medium">
+        <div class="hero-body container">
+            <figure class="image">
+                <a href="https://placeholder.com"><img class="is-rounded"
+                        src="https://via.placeholder.com/256x256/000000/FFFFFF?text=My+placeholder+image"
+                        alt="Headshot"></a>
+            </figure>
+        </div>
+
     </Section>
 
-    <section class="aboutMe">
-        <h2>About Me</h2>
-    </section>
 
-    <Main>
-        <h2>Projects</h2>
-        <div class="row">
-            <section class="column">
-                <li><a href="placeholder">Project 1</a></li>
-                <a href="https://placeholder.com"><img
-                        src="https://via.placeholder.com/800x250/000000/FFFFFF?text=Placeholder+Project+1"
-                        alt="Project 1"></a>
 
+    <Main class="section has-background-dark">
+        <div class="container is-fluid">
+
+            <section class="content has-text-centered" id="aboutMe">
+                <h2 class="title has-text-light">About Me</h2>
+                <p>
+                    
+                </p>
             </section>
-            <section class="column">
-                <li><a href="placeholder">Project 2</a></li>
-                <a href="https://placeholder.com"><img
-                        src="https://via.placeholder.com/800x250/000000/FFFFFF?text=Placeholder+Project+2"
-                        alt="Project 2"></a>
 
-            </section>
-        </div>
-        <div class="row">
-            <section class="column">
-                <li><a href="placeholder">Project 3</a></li>
-                <a href="https://placeholder.com"><img
-                        src="https://via.placeholder.com/800x250/000000/FFFFFF?text=Placeholder+Project+3"
-                        alt="Project 3"></a>
 
-            </section>
-            <section class="column">
-                <li><a href="placeholder">Project 4</a></li>
-                <a href="https://placeholder.com"><img
-                        src="https://via.placeholder.com/800x250/000000/FFFFFF?text=Placeholder+Project+4"
-                        alt="Project 4"></a>
+            <div id="projects">
+                <div class="content has-text-centered">
+                    <h2 class="title has-text-light">Projects</h2>
+                </div>
 
+
+                <div class="column">
+                    <div class="columns">
+                        <section class="column is-half-desktop">
+                            <div class="box">
+                                <a class="subtitle section" href="https://github.com/Patisasea/pub-crawler">Pub Crawler Repo</a>
+                                <a class="section image is-16by9" href="https://patisasea.github.io/pub-crawler/"><img
+                                        src="./assets/screenShots/pub-crawler.png"
+                                        alt="Project 1"></a>
+                            </div>
+                        </section>
+                        <section class="column is-half-desktop">
+                            <div class="box">
+                                <a class="subtitle section" href="https://github.com/Patisasea/jsQuiz">JavaScrip Quiz Repo</a>
+                                <a class="section image is-16by9" href="https://patisasea.github.io/jsQuiz/"><img
+                                        src="https://via.placeholder.com/720x240/000000/FFFFFF?text=Placeholder+Project+2"
+                                        alt="Project 2"></a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="columns">
+                        <section class="column is-half-desktop">
+                            <div class="box">
+                                <a class="subtitle section" href="https://github.com/Patisasea/dayPlaner">Day Planner Repo</a>
+                                <a class="section image is-16by9" href="https://patisasea.github.io/dayPlaner/"><img
+                                        src="https://via.placeholder.com/720x240/000000/FFFFFF?text=Placeholder+Project+3"
+                                        alt="Project 3"></a>
+                            </div>
+                        </section>
+                        <section class="column is-half-desktop">
+                            <div class="box">
+                                <a class="subtitle section" href="https://github.com/Patisasea/Weather">Weather App Repo</a>
+                                <a class="section image is-16by9" href="https://patisasea.github.io/Weather/"><img
+                                        src="https://via.placeholder.com/720x240/000000/FFFFFF?text=Placeholder+Project+4"
+                                        alt="Project 4"></a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <section class="content has-text-centered" id="contact">
+                <div class="title has-text-grey-lighter">
+                    Contact info
+                </div>
+                <div class="subtitle has-text-grey-lighter">
+                    Email : <a href="mailto:patisasea@gmail.com">patisasea@gmail.com</a>
+                </div>
+                <div class="subtitle has-text-grey-lighter">
+                    Phone : (509)859-5877
+                </div>
+                <div class="subtitle has-text-grey-lighter">
+                    Linkedin : <a href="https://www.linkedin.com/in/patric-seaman-b77877224/">Patric Seaman</a>
+                </div>
+                <div class="subtitle has-text-grey-lighter">
+                    GitHub : <a href="https://github.com/Patisasea">Patisasea</a>
+                </div>
             </section>
         </div>
     </Main>
 
-    <footer>
-        <span>Website by Patric Seaman</span>
+    <footer class="footer has-background-black">
+        <div class="content has-text-centered">
+            <span>Website by Patric Seaman</span>
+        </div>
     </footer>
 
 </body>
