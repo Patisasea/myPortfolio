@@ -22,9 +22,7 @@
 
 ## Future Updates
 
-- [] Add projects
-- [] Working nav links
-- [] Working project links
+- 
 
 ## Author
 
